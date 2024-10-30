@@ -103,6 +103,12 @@
             font-family: 'Pacifico', cursive;
             color: #2f4f4f;
         }
+        .center-img {
+            display: block;
+            margin: 20px auto;
+            width: 300px; /* Ajusta el tamaño según sea necesario */
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -136,6 +142,17 @@
             <p><strong>Tipo de Cuenta:</strong> Ahorros</p>
         </div>
     </div>
+    <div class="container">
+        <h1>
+            Información de Cuenta "DE UNA"
+            <img src="https://deuna.app/assets/images/icon-deuna.png" alt="Icono"> <!-- Ruta de la imagen del icono -->
+        </h1>
+        <div class="account-info">
+            <p><strong>Nombre del Titular:</strong> Julio Delgado</p>
+         </div>
+        <img src="JULIO.jpeg" alt="Imagen Centro" class="center-img"> <!-- Imagen en el centro -->
+    </div>
+
     <div class="thank-you">
         ¡Gracias por tu ayuda!
     </div>
